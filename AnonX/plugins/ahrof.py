@@ -105,7 +105,7 @@ async def ahrof(client: Client, message: Message):
     is_subscribed = await check_subscription(user_id)
     if not is_subscribed:
         channel_name = "ꪀᎥَᥴꫀ ᥕَ᥆𝗋ᥣَძ.🦋"
-        channel_url = "https://t.me/ZHO_JOSEF"
+        channel_url = "https://t.me/QlIBl"
         keyboard = InlineKeyboardMarkup(
             [[InlineKeyboardButton(channel_name, url=channel_url)]]
         )
@@ -124,7 +124,7 @@ async def ahrof(client: Client, message: Message):
           [
               [
             InlineKeyboardButton(
-               "‹ 𝒔𝒐𝒖𝒓𝒄𝒆 𝒉𝒐𝒐𝒍𝒍𝒚 ›", url=f"https://t.me/KU_LX"),
+               "‹ 𝒔𝒐𝒖𝒓𝒄𝒆 𝒉𝒐𝒐𝒍𝒍𝒚 ›", url=f"https://t.me/FU_LX"),
               ]
           ]
 

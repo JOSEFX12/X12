@@ -7,8 +7,8 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "374035"))
-API_HASH = getenv("API_HASH", "85f3761ba2d709ff1a5a72cb32c6497b")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "6046893597:AAE3zOhlKW3gferXfWXgc0aH6LSy5HJk4z4")
 
@@ -16,17 +16,17 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Cloner:Cloner@cluster0.cgc6
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001799441743"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐇𝐎𝐋𝐋𝐘 𝐌𝐔𝐒𝐈𝐂 †")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "399401433").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5560107603").split()))
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", "153d8493-12e3-4b7d-a1a5-04d31fbb0c54")
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "zhoxjosef")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/JOZANDZHO/HOOLLY.V100")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/JOSEFX12/X12")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ZHO_JOSEF")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/JOSEFI0")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ldXbI")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/KU_LX")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -52,13 +52,13 @@ VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "500"))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "500"))
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "500"))
 
-CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "120"))
+CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "60"))
 
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BAAx43QR2C36yhBO_Rw1h38eTZ6S-tOPGoca9J33Y8Kc0fbUEX72CjL-5viQ90_AUP6a4wozTFo8QIlJImG3cXOQYOT3n3Ymu8MAF4cAVS-kEseUdQhpa9zTfLC3UvVMcCqmPl7Uy8qOSQdtaAosgL8pPrtQN1IkhIjLpYBsUqKuSahEG0NubOLDTdh1rXXmJkiwbhRvQjqd_AwPchYCZfoOc65Go2kJ3236IYcPQ-5V6tso6epKMzvOHShUlWHkVkxTdFgrgOHC4A1Ighb_wUZYs-nis-JnaAN6x8ixHWUMS7vt7zzy1-Iz5xwcioQVLf4_hPXsz-JRiSl1iQ2214srAAAAAXUKq58A")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/88187c479e490267db79a.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://i.imghippo.com/files/8LRP91727440227.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/88187c479e490267db79a.jpg"
+            START_IMG_URL = "https://i.imghippo.com/files/8LRP91727440227.jpg"

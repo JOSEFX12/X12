@@ -14,12 +14,12 @@
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "374035",
+      "value": "",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "85f3761ba2d709ff1a5a72cb32c6497b",
+      "value": "",
       "required": true
     },
     "AUTO_LEAVING_ASSISTANT": {
@@ -44,22 +44,22 @@
     },
     "OWNER_ID": {
       "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-      "value": "399401433",
+      "value": "5560107603",
       "required": true
     },
     "STRING_SESSION": {
       "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-      "value": "BAAx43QR2C36yhBO_Rw1h38eTZ6S-tOPGoca9J33Y8Kc0fbUEX72CjL-5viQ90_AUP6a4wozTFo8QIlJImG3cXOQYOT3n3Ymu8MAF4cAVS-kEseUdQhpa9zTfLC3UvVMcCqmPl7Uy8qOSQdtaAosgL8pPrtQN1IkhIjLpYBsUqKuSahEG0NubOLDTdh1rXXmJkiwbhRvQjqd_AwPchYCZfoOc65Go2kJ3236IYcPQ-5V6tso6epKMzvOHShUlWHkVkxTdFgrgOHC4A1Ighb_wUZYs-nis-JnaAN6x8ixHWUMS7vt7zzy1-Iz5xwcioQVLf4_hPXsz-JRiSl1iQ2214srAAAAAXUKq58A",
+      "value": "",
       "required": true
     },
     "HEROKU_API_KEY": {
       "description": "Your Heroku account's API key",
-      "value": "153d8493-12e3-4b7d-a1a5-04d31fbb0c54",
+      "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "Your heroku app/bot's name",
-      "value": "zhoxjosef",
+      "value": "",
       "required": false
     },
     "LOG_GROUP_ID": {
@@ -69,7 +69,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/JOZANDZHO/HOOLLY.V100",
+      "value": "https://github.com/JOSEFX12/X12",
       "required": true
     },
     "UPSTREAM_BRANCH": {
